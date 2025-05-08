@@ -1,9 +1,14 @@
-It's a script repository. It's written with Go.
+This is a script repository written in Go. It helps convert given images into versions with a desired color tone.
 
-Dependency: > go 1.22.5
+Dependency:
 
-Using:
-  1- Put images to "iconlar" file
-  2- Run via go run main.go or with Makefile create a compiled file
-  3- Enter rgb values (255,255,255)
-  4- Converted images ready
+Go 1.22.5 or later
+
+Usage:
+  1- Place the images in the iconlar folder.
+
+  2- Run the script using go run main.go or compile it using the Makefile.
+
+  3- Enter the desired RGB values (e.g., 255, 255, 255).
+
+  4- The converted images will be ready in the output.
